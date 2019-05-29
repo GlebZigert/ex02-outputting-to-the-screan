@@ -1,0 +1,6 @@
+#!/bin/bash
+export LD_LIBRARY_PATH=/usr/local/lib
+echo $LD_LIBRARY_PATH
+./ex02 test.264
+export SDL_VIDEODRIVER=X11
+echo $SDL_VIDEODRIVER
